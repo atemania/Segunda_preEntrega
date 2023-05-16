@@ -191,3 +191,55 @@ footer{
     align-items:center;
     width:100%;
 }
+
+.div_profile{
+    width: 35%;
+  margin: auto;
+  float:center;
+  align-content: center;
+  background-color: whitesmoke;
+  -webkit-box-shadow: 10px 10px 19px -8px rgba(232,165,203,1);
+  -moz-box-shadow: 10px 10px 19px -8px rgba(232,165,203,1);
+  box-shadow: 10px 10px 19px -8px rgba(232,165,203,1);
+    justify-content: center;
+}
+
+#png_user{
+    width: 150px;
+    display:flex;
+    align-items:center; 
+}
+
+#content-profile{
+    float:left;
+    align-content: right;
+    width:calc(50% - 50px);
+    background-color: white;
+    min-height:900px; 
+    padding:40px;
+
+}
+
+#content-profile img{
+    width:500px;
+}
+#form-profile{
+    float:left;
+    width:calc(50% - 50px);
+    background-color: white;
+    color:black;
+    min-height:900px;
+    padding:10px;
+}
+.new_user {
+    background-color: #f82d97;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+.acard{
+    color: #e03d8f;
+}
