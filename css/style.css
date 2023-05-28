@@ -15,9 +15,6 @@ title{
     width: 100%;
     display:flex;
     align-items:center;
-    
-    
-
 }
 
 header{
@@ -28,7 +25,6 @@ header{
     z-index:10;
     }
 
-
 h1{ color:white;
     padding: 0 0 0 0;
     font-weight: bold;
@@ -36,8 +32,6 @@ h1{ color:white;
     line-height: 100px;
     font-size: 80px;
     font-family: 'Bebas Neue', cursive;
-    
-
 }
 
 h1:hover{ color:greenyellow;
@@ -47,9 +41,8 @@ h1:hover{ color:greenyellow;
     line-height: 100px;
     font-size: 80px;
     font-family: 'Bebas Neue', cursive;
-    
-
 }
+
 .clearfix{
     clear: both; 
  }
@@ -176,7 +169,7 @@ footer{
 }
 
 .ticket_img{
-    width: 40rem;
+    max-width: 100%;
 }
 .ticket_add{
     display:flex;
