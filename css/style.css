@@ -47,8 +47,6 @@ h1:hover{ color:greenyellow;
     clear: both; 
  }
  
-
-
 .card{
     -webkit-box-shadow: 10px 10px 19px -8px rgba(232,165,203,1);
     -moz-box-shadow: 10px 10px 19px -8px rgba(232,165,203,1);
@@ -80,7 +78,6 @@ h1:hover{ color:greenyellow;
     justify-content= pertenece al eje principal
     align-items=pertenece al eje secundario
 */
-
 .card div h5{
     justify-content: right; 
 }
@@ -92,10 +89,6 @@ h1:hover{ color:greenyellow;
     flex-wrap: wrap;
 }
 
-
-    
-
-
 .blog img{
     width: 200px;
 }
@@ -104,7 +97,6 @@ a{
     text-decoration: none;
     color:beige; 
 }
-
 
 footer{
     background-color: black;
@@ -119,13 +111,9 @@ footer{
     align-items:flex-end;
 }
 
-
-
 .scale{
     display:inline-block;
     transition: .1s;
- 
-
 }
 
 .scale:hover{
@@ -133,22 +121,17 @@ footer{
     transform:scale(1.1);
 }
 
-
-
 .blogCarrusel{
     background-color:#ff6781;
     width: 100%;
     color:rgb(44, 39, 39);
     /*Con esto le dejamos un borde a la imagen de dentro*/
     padding:4rem;
-    
-
-    }
+}
     
 .blogCarru{
     display:flex;
     background-color: #ECE4E3;
-
     align-items:center;
   
 }
@@ -156,7 +139,6 @@ footer{
 .desc{
     padding:3rem;
 }
-
 
 .tickets{
     background-color:white;
